@@ -121,7 +121,7 @@ button {
 /* respos */
 @media screen and (max-width: 1024px) {
   main {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: start;
     gap: 5rem;
   }
@@ -132,4 +132,11 @@ button {
   .heroPic {
     width: 100%;
   }
+}
+
+
+@media screen and (max-width: 500px){
+    main{
+        pad
+    }
 }
